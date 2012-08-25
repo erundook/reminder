@@ -12,6 +12,10 @@ Reminder::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  require 'resque/server'
+  require 'resque_scheduler'
+  require 'resque_scheduler/server'
+  mount Resque::Server.new, :at => "/resque"
 
   # Sample resource route with options:
   #   resources :products do

@@ -3,5 +3,33 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .content {
-  margin: 10px !important;
+  margin: 30px auto !important;
+  width: 600px;
 }
+.datetime div {
+  display: inline;
+  margin-right: 5px;
+}
+
+.response {
+  display: none;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  z-index: 999;
+}
+.alert-centered {
+  margin: 0px auto;
+  width: 60%;
+  position: relative;
+}
+
+#phone { width: 225px; }
+#message { width: 250px; }
+
+input {
+  font-size: 13pt !important;
+  line-height: 16pt;
+}
+
+textarea { font-size: 16pt; }

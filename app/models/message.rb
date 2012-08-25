@@ -2,7 +2,7 @@ class Message < ActiveRecord::Base
   belongs_to :phone
 
   validates_presence_of :text, :requested_time, :phone
-  validates_length_of :text, maximum: 50
+  #validates_length_of :text, maximum: 50
 
   after_create :charge_and_queue
   attr_accessible :text, :requested_time, :delivery_time, :raw_size, :provider_response, :error_log
@@ -32,8 +32,7 @@ class Message < ActiveRecord::Base
       end
       update_attributes(
                          delivery_time: Time.now,
-                         provider_response: response.to_json,
-                         raw_size: response['n_raw_sms']
+                         provider_response: response
                         )
       sent!
     rescue => e
@@ -49,7 +48,7 @@ class Message < ActiveRecord::Base
 
   def charge_and_queue
     phone.update_attribute(:paid_messages, phone.paid_messages - 1)
-    Resque.enqueue_at(requested_time, SendMessage, message_id: id)
+    Resque.enqueue_at(requested_time, SendMessage, message_id: self.id)
   end
 
   def refund
