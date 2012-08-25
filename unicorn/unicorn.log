@@ -1,0 +1,368 @@
+I, [2012-08-25T23:49:43.052031 #4266]  INFO -- : listening on addr=/tmp/unicorn.todo.sock fd=7
+I, [2012-08-25T23:49:43.053037 #4266]  INFO -- : worker=0 spawning...
+I, [2012-08-25T23:49:43.055024 #4266]  INFO -- : worker=1 spawning...
+I, [2012-08-25T23:49:43.055975 #4269]  INFO -- : worker=0 spawned pid=4269
+I, [2012-08-25T23:49:43.056206 #4269]  INFO -- : Refreshing Gem list
+I, [2012-08-25T23:49:43.056516 #4266]  INFO -- : master process ready
+I, [2012-08-25T23:49:43.057201 #4272]  INFO -- : worker=1 spawned pid=4272
+I, [2012-08-25T23:49:43.057442 #4272]  INFO -- : Refreshing Gem list
+I, [2012-08-25T23:49:46.030995 #4269]  INFO -- : worker=0 ready
+I, [2012-08-25T23:49:46.184972 #4272]  INFO -- : worker=1 ready
+I, [2012-08-25T23:50:54.719737 #4266]  INFO -- : reaped #<Process::Status: pid 4269 exit 0> worker=0
+I, [2012-08-25T23:50:54.719896 #4266]  INFO -- : reaped #<Process::Status: pid 4272 exit 0> worker=1
+I, [2012-08-25T23:50:54.720034 #4266]  INFO -- : master complete
+I, [2012-08-25T23:51:19.330348 #4353]  INFO -- : listening on addr=/tmp/unicorn.reminder.sock fd=7
+I, [2012-08-25T23:51:19.331180 #4353]  INFO -- : worker=0 spawning...
+I, [2012-08-25T23:51:19.333083 #4353]  INFO -- : worker=1 spawning...
+I, [2012-08-25T23:51:19.333791 #4356]  INFO -- : worker=0 spawned pid=4356
+I, [2012-08-25T23:51:19.334005 #4356]  INFO -- : Refreshing Gem list
+I, [2012-08-25T23:51:19.334287 #4353]  INFO -- : master process ready
+I, [2012-08-25T23:51:19.334937 #4359]  INFO -- : worker=1 spawned pid=4359
+I, [2012-08-25T23:51:19.335224 #4359]  INFO -- : Refreshing Gem list
+I, [2012-08-25T23:51:22.439207 #4356]  INFO -- : worker=0 ready
+I, [2012-08-25T23:51:22.506728 #4359]  INFO -- : worker=1 ready
+127.0.0.1 - - [25/Aug/2012 23:51:23] "GET / HTTP/1.0" 200 - 1.3728
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /bootstrap.css?body=1 HTTP/1.0" 200 115075 0.0148
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /datepicker.css?body=1 HTTP/1.0" 200 6662 0.0065
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /home.css?body=1 HTTP/1.0" 200 919 0.0046
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /jquery.js?body=1 HTTP/1.0" 200 259838 0.0264
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /jquery_ujs.js?body=1 HTTP/1.0" 200 17585 0.0073
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /bootstrap-datepicker.js?body=1 HTTP/1.0" 200 25206 0.0084
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /bootstrap-timepicker.js?body=1 HTTP/1.0" 200 30305 0.0063
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /bootstrap.min.js?body=1 HTTP/1.0" 200 25528 0.0057
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /home.js?body=1 HTTP/1.0" 200 723 0.0063
+127.0.0.1 - - [25/Aug/2012 23:51:24] "GET /locales/bootstrap-datepicker.ru.js?body=1 HTTP/1.0" 200 841 0.0051
+127.0.0.1 - - [25/Aug/2012 23:51:25] "GET /timepicker.css?body=1 HTTP/1.0" 200 2027 0.9059
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET / HTTP/1.0" 304 - 0.1213
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /bootstrap.css?body=1 HTTP/1.0" 304 - 0.0031
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /datepicker.css?body=1 HTTP/1.0" 304 - 0.0020
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /home.css?body=1 HTTP/1.0" 304 - 0.0057
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0031
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /timepicker.css?body=1 HTTP/1.0" 304 - 0.0035
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0029
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /bootstrap-timepicker.js?body=1 HTTP/1.0" 304 - 0.0032
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /bootstrap-datepicker.js?body=1 HTTP/1.0" 304 - 0.0060
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /bootstrap.min.js?body=1 HTTP/1.0" 304 - 0.0023
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /home.js?body=1 HTTP/1.0" 304 - 0.0041
+127.0.0.1 - - [25/Aug/2012 23:51:28] "GET /locales/bootstrap-datepicker.ru.js?body=1 HTTP/1.0" 304 - 0.0047
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET / HTTP/1.0" 304 - 0.0209
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /bootstrap.css?body=1 HTTP/1.0" 304 - 0.0028
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /datepicker.css?body=1 HTTP/1.0" 304 - 0.0023
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /timepicker.css?body=1 HTTP/1.0" 304 - 0.0059
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /home.css?body=1 HTTP/1.0" 304 - 0.0033
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0027
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /bootstrap-datepicker.js?body=1 HTTP/1.0" 304 - 0.0023
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /bootstrap-timepicker.js?body=1 HTTP/1.0" 304 - 0.0023
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /bootstrap.min.js?body=1 HTTP/1.0" 304 - 0.0025
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /home.js?body=1 HTTP/1.0" 304 - 0.0022
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /locales/bootstrap-datepicker.ru.js?body=1 HTTP/1.0" 304 - 0.0030
+127.0.0.1 - - [25/Aug/2012 23:51:30] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0331
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET / HTTP/1.0" 304 - 0.0177
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /bootstrap.css?body=1 HTTP/1.0" 304 - 0.0029
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /home.css?body=1 HTTP/1.0" 304 - 0.0032
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /datepicker.css?body=1 HTTP/1.0" 304 - 0.0036
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0043
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0052
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /timepicker.css?body=1 HTTP/1.0" 304 - 0.0024
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /bootstrap-datepicker.js?body=1 HTTP/1.0" 304 - 0.0023
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /bootstrap-timepicker.js?body=1 HTTP/1.0" 304 - 0.0028
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /home.js?body=1 HTTP/1.0" 304 - 0.0034
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /bootstrap.min.js?body=1 HTTP/1.0" 304 - 0.0046
+127.0.0.1 - - [25/Aug/2012 23:51:31] "GET /locales/bootstrap-datepicker.ru.js?body=1 HTTP/1.0" 304 - 0.0033
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET / HTTP/1.0" 200 - 0.0185
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /bootstrap.css?body=1 HTTP/1.0" 304 - 0.0046
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /datepicker.css?body=1 HTTP/1.0" 304 - 0.0044
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /timepicker.css?body=1 HTTP/1.0" 304 - 0.0030
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /home.css?body=1 HTTP/1.0" 304 - 0.0022
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0040
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0024
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /bootstrap-timepicker.js?body=1 HTTP/1.0" 304 - 0.0044
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /bootstrap-datepicker.js?body=1 HTTP/1.0" 304 - 0.0036
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /bootstrap.min.js?body=1 HTTP/1.0" 304 - 0.0025
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /home.js?body=1 HTTP/1.0" 304 - 0.0043
+127.0.0.1 - - [25/Aug/2012 23:52:14] "GET /locales/bootstrap-datepicker.ru.js?body=1 HTTP/1.0" 304 - 0.0022
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET / HTTP/1.0" 304 - 0.0169
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /datepicker.css?body=1 HTTP/1.0" 304 - 0.0033
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /bootstrap.css?body=1 HTTP/1.0" 304 - 0.0043
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /timepicker.css?body=1 HTTP/1.0" 304 - 0.0027
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /home.css?body=1 HTTP/1.0" 304 - 0.0029
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /jquery.js?body=1 HTTP/1.0" 304 - 0.0031
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /jquery_ujs.js?body=1 HTTP/1.0" 304 - 0.0026
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /bootstrap-datepicker.js?body=1 HTTP/1.0" 304 - 0.0027
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /bootstrap-timepicker.js?body=1 HTTP/1.0" 304 - 0.0048
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /bootstrap.min.js?body=1 HTTP/1.0" 304 - 0.0025
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /locales/bootstrap-datepicker.ru.js?body=1 HTTP/1.0" 304 - 0.0028
+127.0.0.1 - - [25/Aug/2012 23:52:19] "GET /home.js?body=1 HTTP/1.0" 304 - 0.0042
+I, [2012-08-25T23:52:36.263099 #4353]  INFO -- : reaped #<Process::Status: pid 4356 exit 0> worker=0
+I, [2012-08-25T23:52:36.263264 #4353]  INFO -- : reaped #<Process::Status: pid 4359 exit 0> worker=1
+I, [2012-08-25T23:52:36.263416 #4353]  INFO -- : master complete
+I, [2012-08-25T23:52:56.913020 #4386]  INFO -- : unlinking existing socket=/tmp/unicorn.reminder.sock
+I, [2012-08-25T23:52:56.913472 #4386]  INFO -- : listening on addr=/tmp/unicorn.reminder.sock fd=7
+I, [2012-08-25T23:52:56.913977 #4386]  INFO -- : worker=0 spawning...
+I, [2012-08-25T23:52:56.915978 #4386]  INFO -- : worker=1 spawning...
+I, [2012-08-25T23:52:56.916663 #4389]  INFO -- : worker=0 spawned pid=4389
+I, [2012-08-25T23:52:56.916913 #4389]  INFO -- : Refreshing Gem list
+I, [2012-08-25T23:52:56.917261 #4386]  INFO -- : master process ready
+I, [2012-08-25T23:52:56.917777 #4392]  INFO -- : worker=1 spawned pid=4392
+I, [2012-08-25T23:52:56.917967 #4392]  INFO -- : Refreshing Gem list
+I, [2012-08-25T23:53:00.543106 #4392]  INFO -- : worker=1 ready
+cache error: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:262:in `rescue in establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:257:in `establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:63:in `connect'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:276:in `ensure_connected'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:167:in `block in process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:242:in `logging'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:166:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:78:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:714:in `block in get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `block in synchronize'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:713:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/interface.rb:5:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/marshalling.rb:17:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-activesupport-3.2.3/lib/active_support/cache/redis_store.rb:151:in `read_entry'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:316:in `block in read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:520:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:315:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/http/rack_cache.rb:17:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/metastore.rb:30:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:169:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/bin/unicorn:121:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `load'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `<main>'
+I, [2012-08-25T23:53:00.559346 #4389]  INFO -- : worker=0 ready
+cache error: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:262:in `rescue in establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:257:in `establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:63:in `connect'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:276:in `ensure_connected'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:167:in `block in process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:242:in `logging'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:166:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:78:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:714:in `block in get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `block in synchronize'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:713:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/interface.rb:5:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/marshalling.rb:17:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-activesupport-3.2.3/lib/active_support/cache/redis_store.rb:151:in `read_entry'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:316:in `block in read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:520:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:315:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/http/rack_cache.rb:17:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/metastore.rb:30:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:169:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/bin/unicorn:121:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `load'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `<main>'
+cache error: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:262:in `rescue in establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:257:in `establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:63:in `connect'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:276:in `ensure_connected'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:167:in `block in process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:242:in `logging'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:166:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:78:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:714:in `block in get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `block in synchronize'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:713:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/interface.rb:5:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/marshalling.rb:17:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-activesupport-3.2.3/lib/active_support/cache/redis_store.rb:151:in `read_entry'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:316:in `block in read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:520:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:315:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/http/rack_cache.rb:17:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/metastore.rb:30:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:169:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/bin/unicorn:121:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `load'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `<main>'
+cache error: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:262:in `rescue in establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:257:in `establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:63:in `connect'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:276:in `ensure_connected'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:167:in `block in process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:242:in `logging'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:166:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:78:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:714:in `block in get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `block in synchronize'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:713:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/interface.rb:5:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/marshalling.rb:17:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-activesupport-3.2.3/lib/active_support/cache/redis_store.rb:151:in `read_entry'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:316:in `block in read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:520:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:315:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/http/rack_cache.rb:17:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/metastore.rb:30:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:169:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/bin/unicorn:121:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `load'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `<main>'
+cache error: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:262:in `rescue in establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:257:in `establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:63:in `connect'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:276:in `ensure_connected'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:167:in `block in process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:242:in `logging'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:166:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:78:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:714:in `block in get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `block in synchronize'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:713:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/interface.rb:5:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/marshalling.rb:17:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-activesupport-3.2.3/lib/active_support/cache/redis_store.rb:151:in `read_entry'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:316:in `block in read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:520:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:315:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/http/rack_cache.rb:17:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/metastore.rb:30:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:169:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/bin/unicorn:121:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `load'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `<main>'
+cache error: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:262:in `rescue in establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:257:in `establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:63:in `connect'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:276:in `ensure_connected'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:167:in `block in process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:242:in `logging'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:166:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:78:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:714:in `block in get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `block in synchronize'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:713:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/interface.rb:5:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/marshalling.rb:17:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-activesupport-3.2.3/lib/active_support/cache/redis_store.rb:151:in `read_entry'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:316:in `block in read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:520:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:315:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/http/rack_cache.rb:17:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/metastore.rb:30:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:169:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/bin/unicorn:121:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `load'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `<main>'
+cache error: Error connecting to Redis on 127.0.0.1:6379 (ECONNREFUSED)
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:262:in `rescue in establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:257:in `establish_connection'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:63:in `connect'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:276:in `ensure_connected'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:167:in `block in process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:242:in `logging'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:166:in `process'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis/client.rb:78:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:714:in `block in get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `block in synchronize'
+/usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/monitor.rb:211:in `mon_synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:36:in `synchronize'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-3.0.1/lib/redis.rb:713:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/interface.rb:5:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-store-1.1.1/lib/redis/store/marshalling.rb:17:in `get'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/redis-activesupport-3.2.3/lib/active_support/cache/redis_store.rb:151:in `read_entry'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:316:in `block in read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:520:in `instrument'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.2.8/lib/active_support/cache.rb:315:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.8/lib/action_dispatch/http/rack_cache.rb:17:in `read'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/metastore.rb:30:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:169:in `lookup'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:66:in `call!'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/rack-cache-1.2/lib/rack/cache/context.rb:51:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/engine.rb:479:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/application.rb:223:in `call'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/railties-3.2.8/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:531:in `process_client'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:606:in `worker_loop'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:487:in `spawn_missing_workers'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/lib/unicorn/http_server.rb:137:in `start'
+/usr/local/rvm/gems/ruby-1.9.3-p194/gems/unicorn-4.3.1/bin/unicorn:121:in `<top (required)>'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `load'
+/usr/local/rvm/gems/ruby-1.9.3-p194/bin/unicorn:23:in `<main>'
+I, [2012-08-26T00:02:36.197104 #4386]  INFO -- : reaped #<Process::Status: pid 4389 exit 0> worker=0
+I, [2012-08-26T00:02:36.197396 #4386]  INFO -- : reaped #<Process::Status: pid 4392 exit 0> worker=1
+I, [2012-08-26T00:02:36.200052 #4386]  INFO -- : master complete
+I, [2012-08-26T00:02:44.479902 #5421]  INFO -- : unlinking existing socket=/tmp/unicorn.reminder.sock
+I, [2012-08-26T00:02:44.480356 #5421]  INFO -- : listening on addr=/tmp/unicorn.reminder.sock fd=7
+I, [2012-08-26T00:02:44.480980 #5421]  INFO -- : worker=0 spawning...
+I, [2012-08-26T00:02:44.482709 #5421]  INFO -- : worker=1 spawning...
+I, [2012-08-26T00:02:44.483471 #5424]  INFO -- : worker=0 spawned pid=5424
+I, [2012-08-26T00:02:44.483744 #5424]  INFO -- : Refreshing Gem list
+I, [2012-08-26T00:02:44.485000 #5421]  INFO -- : master process ready
+I, [2012-08-26T00:02:44.485695 #5427]  INFO -- : worker=1 spawned pid=5427
+I, [2012-08-26T00:02:44.485959 #5427]  INFO -- : Refreshing Gem list
+I, [2012-08-26T00:02:48.438268 #5427]  INFO -- : worker=1 ready
+I, [2012-08-26T00:02:48.456766 #5424]  INFO -- : worker=0 ready

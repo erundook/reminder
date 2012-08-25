@@ -8,7 +8,8 @@
 /.bundle
 /config/sms.yml
 /config/initializers/resque_auth.rb
-
+/bin
+/public/assets
 # Ignore the default SQLite database.
 /db/*.sqlite3
 
