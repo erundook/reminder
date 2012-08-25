@@ -1,0 +1,13 @@
+.content
+  = form_tag '/add_message', remote: true do
+    = text_field_tag :phone, '79175762995'
+    = text_field_tag :message, 'testing проверочка'
+    .input-append.date
+      = text_field_tag :date, '', class: 'span2'
+      %span.add-on
+        %i.icon-th
+    .input-append.bootstrap-timepicker-component
+      = text_field_tag :time, '', class: 'timepicker-default input-mini'
+      %span.add-on
+        %i.icon-time
+    = submit_tag

@@ -10,6 +10,10 @@ gem 'haml-rails'
 gem 'resque'
 gem 'resque-scheduler'
 gem 'sms24x7'
+gem 'state_machine'
+gem 'rb-readline'
+gem 'redis-store', '~> 1.1.1'
+gem 'redis-rails'
 
 # Gems used only for assets and not required
 # in production environments by default.

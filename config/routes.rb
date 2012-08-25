@@ -50,6 +50,7 @@ Reminder::Application.routes.draw do
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
   root to: 'home#index'
+  post '/add_message', to: 'home#add_message'
 
   # See how all your routes lay out with "rake routes"
 
