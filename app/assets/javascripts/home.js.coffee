@@ -19,5 +19,3 @@ $(document).ready ->
       $('.alert').addClass('alert-error').removeClass('.alert-success')
     $('.response .alert-content').html(data.message)
     $('.response').fadeIn(200).delay(1500).fadeOut(200)
-    console.log e
-    console.log data

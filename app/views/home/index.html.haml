@@ -10,7 +10,7 @@
       .controls
         .input-prepend
           %span.add-on +7
-          = text_field_tag :phone, '9175762995'
+          = text_field_tag :phone, cookies[:phone]
     .control-group
       %label.control-label{for: 'time'} Время
       .controls
@@ -26,6 +26,6 @@
     .control-group
       %label.control-label{for: 'message'} Сообщение
       .controls
-        = text_area_tag :message, 'купить молоко'
+        = text_area_tag :message, 'купить молоко', rows: 5
     .controls.controls-row
       %button.btn.btn-primary.btn-large Напомнить
