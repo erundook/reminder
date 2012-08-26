@@ -19,7 +19,10 @@ $(document).ready ->
     $.getJSON "/check_msg_limit?phone=#{$('#phone').val()}", (data) ->
       $('#count').html(data.count)
       $('.msg_counter').slideDown(300)
-      $('.captcha_row').slideUp(300) if data.verified and $('.captcha_row').is(':visible')
+      if data.verified
+        $('.captcha_row').slideUp(300) if $('.captcha_row').is(':visible')
+      else
+        $('.captcha_row').slideDown(300)
   $('#phone').keyup ->
     if $(this).val().match(/^\d{10}$/)
       $.getJSON "/check_msg_limit?phone=#{$(this).val()}", (data) ->
