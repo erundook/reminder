@@ -92,6 +92,7 @@ GEM
     rb-readline (0.4.2)
     rdoc (3.12)
       json (~> 1.4)
+    recaptcha (0.3.4)
     redis (3.0.1)
     redis-actionpack (3.2.3)
       actionpack (~> 3.2.3)
@@ -163,6 +164,7 @@ DEPENDENCIES
   quiet_assets
   rails (= 3.2.8)
   rb-readline
+  recaptcha
   redis-rails
   redis-store (~> 1.1.1)
   resque

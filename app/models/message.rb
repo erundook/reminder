@@ -19,7 +19,7 @@ class Message < ActiveRecord::Base
     end
     after_transition :queued => :processing, :do => :deliver
     after_transition :processing => :failed, :do => :refund
-    after_transition :processing => :message_sent,  :do => :update_stats
+    # after_transition :processing => :message_sent,  :do => :update_stats
   end
 
   def deliver
@@ -49,6 +49,7 @@ class Message < ActiveRecord::Base
   def charge_and_queue
     phone.update_attribute(:paid_messages, phone.paid_messages - 1)
     Resque.enqueue_at(requested_time, SendMessage, message_id: self.id)
+    update_stats
   end
 
   def refund

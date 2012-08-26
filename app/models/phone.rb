@@ -20,7 +20,7 @@ class Phone < ActiveRecord::Base
         if true#requested_time.utc > Time.now.utc + 5.minutes
           status = 'ok'
           messages.create(text: text, requested_time: requested_time)
-          message = "Добавлено для доставки в #{requested_time.to_s(:short)}, осталось сообщений: #{paid_messages-1}"
+          message = "Добавлено для доставки в #{requested_time.to_s(:short)}, осталось сообщений: #{reload.paid_messages}"
         else
           message = "Неверное время отправки"
         end

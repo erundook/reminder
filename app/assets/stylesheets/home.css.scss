@@ -2,15 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.content {
+.center {
   margin: 30px auto !important;
-  width: 600px;
+  width: 900px;
 }
 .datetime div {
   display: inline;
   margin-right: 5px;
 }
-
 .response {
   display: none;
   text-align: center;
@@ -24,12 +23,15 @@
   position: relative;
 }
 
-#phone { width: 225px; }
+#phone { width: 275px; }
 #message { width: 250px; }
 
-input {
-  font-size: 13pt !important;
-  line-height: 16pt;
-}
+input { font-size: 13pt !important; }
 
-textarea { font-size: 16pt; }
+.bootstrap-timepicker-component { margin-right: 0 !important; margin-left: 50px; }
+textarea { font-size: 16pt; width: 300px !important; }
+.float-right { float: right; margin-right: 20px; }
+.credits { position: fixed; right: 20px; bottom: 10px; }
+.msg_counter { display: none; }
+.captcha_row { display: none; }
+.wrapper { margin-right: 20px; }

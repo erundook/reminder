@@ -14,6 +14,8 @@ gem 'rb-readline'
 gem 'redis-store', '~> 1.1.1'
 gem 'redis-rails'
 gem 'quiet_assets'
+gem 'recaptcha', require: 'recaptcha/rails'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do

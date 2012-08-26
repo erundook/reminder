@@ -10,6 +10,7 @@
 /config/initializers/resque_auth.rb
 /bin
 /public/assets
+/config/initializers/recaptcha.rb
 # Ignore the default SQLite database.
 /db/*.sqlite3
 

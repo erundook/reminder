@@ -2,30 +2,53 @@
   .alert.alert-centered
     .alert-content
 
-.content
-  = form_tag '/add_message', remote: true, class: 'form-horizontal' do
-    %legend СМС-напоминание
-    .control-group
-      %label.control-label{for: 'phone'} Телефон
-      .controls
-        .input-prepend
-          %span.add-on +7
-          = text_field_tag :phone, cookies[:phone]
-    .control-group
-      %label.control-label{for: 'time'} Время
-      .controls
-        .datetime
-          .input-append.date
-            = text_field_tag :date, Time.now.strftime('%d.%m.%Y'), class: 'span2'
-            %span.add-on
-              %i.icon-th
-          .input-append.bootstrap-timepicker-component
-            = text_field_tag :time, (Time.now + 1.hour).strftime('%H:%M'), class: 'timepicker-default span1'
-            %span.add-on
-              %i.icon-time
-    .control-group
-      %label.control-label{for: 'message'} Сообщение
-      .controls
-        = text_area_tag :message, 'купить молоко', rows: 5
-    .controls.controls-row
-      %button.btn.btn-primary.btn-large Напомнить
+.center
+  .row
+    .span11
+      .hero-unit
+        %h1 SMSreminder
+        %p Напомнить всё.
+  .row
+    .span7
+      .wrapper
+        = form_tag '/add_message', remote: true, class: 'form-horizontal' do
+          / %legend СМС-напоминание
+          .control-group
+            %label.control-label{for: 'phone'} Телефон
+            .controls
+              .input-prepend
+                %span.add-on +7
+                = text_field_tag :phone, cookies[:phone]
+          .control-group
+            %label.control-label{for: 'time'} Время
+            .controls
+              .datetime
+                .input-append.date
+                  = text_field_tag :date, Time.now.strftime('%d.%m.%Y'), class: 'span2'
+                  %span.add-on
+                    %i.icon-th
+                .input-append.bootstrap-timepicker-component
+                  = text_field_tag :time, (Time.now + 1.hour).strftime('%H:%M'), class: 'timepicker-default span1'
+                  %span.add-on
+                    %i.icon-time
+          .control-group
+            %label.control-label{for: 'message'} Сообщение
+            .controls
+              = text_area_tag :message, '', rows: 5, placeholder: 'купить молоко'
+          .controls.controls-row.captcha_row
+            = recaptcha_tags(ajax: true)
+            %br
+          .controls.controls-row
+            %button.btn.btn-primary.btn-large Напомнить
+    .span4
+      %p.lead.msg_counter
+        Сообщений осталось:
+        %span#count &nbsp;
+      %h5 Обещаем не использовать Ваш номер в корыстных целях и не передавать его третьим лицам.
+      %p.lead
+        Всего отправлено:
+        %span#total_count #{Rails.cache.read 'messages_total'}
+
+.credits
+  &copy; 2012 by
+  %a{href: 'mailto:erundook@gmail.com?subject=SMSreminder'} erundook

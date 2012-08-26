@@ -55,6 +55,7 @@ Reminder::Application.routes.draw do
   # root :to => 'welcome#index'
   root to: 'home#index'
   post '/add_message', to: 'home#add_message'
+  get '/check_msg_limit', to: 'home#check_msg_limit'
 
   # See how all your routes lay out with "rake routes"
 
