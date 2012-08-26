@@ -28,7 +28,7 @@ class Phone < ActiveRecord::Base
         message = "Исчерпан лимит сообщений"
       end
     else
-      message = phone.errors.full_messages.join(', ')
+      message = errors.full_messages.join(', ')
     end
     [ status, message ]
   end
