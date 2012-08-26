@@ -3,6 +3,13 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $(document).ready ->
+  # timezone detector
+  date = new Date();
+  date.setTime(date.getTime() + (1000*24*60*60*1000));
+  expires = "; expires=" + date.toGMTString();
+  offset = -(new Date().getTimezoneOffset() / 60);
+  document.cookie = "timezone=" + offset + expires + "; path=/";
+
   # setup pickers
   $('#time').timepicker
     showMeridian: false
