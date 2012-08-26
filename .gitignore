@@ -8,6 +8,7 @@
 /.bundle
 /config/sms.yml
 /config/initializers/resque_auth.rb
+/unicorn
 /bin
 /public/assets
 /config/initializers/recaptcha.rb
