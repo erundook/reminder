@@ -3,6 +3,9 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $(document).ready ->
+  VK.init({apiId: 3097076, onlyWidgets: true});
+  VK.Widgets.Like("vk-like", {type: "button", height: 20});
+
   # timezone detector
   date = new Date();
   date.setTime(date.getTime() + (1000*24*60*60*1000));

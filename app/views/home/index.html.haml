@@ -1,7 +1,6 @@
 .response
   .alert.alert-centered
     .alert-content
-
 .center
   .row
     .span11
@@ -48,6 +47,9 @@
       %p.lead
         Всего отправлено:
         %span#total_count #{Rails.cache.read 'messages_total'}
+      .fb-like{ data: { href: 'http://sms-reminder.ru', send: false, layout: 'button_count', width: 200, show: { faces: false } } }
+      #vk-like
+      .g-plusone{ data: { href: 'http://sms-reminder.ru' } }
 
 .credits
   &copy; 2012 by
