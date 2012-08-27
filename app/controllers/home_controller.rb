@@ -4,8 +4,8 @@ class HomeController < ApplicationController
   respond_to :json, only: [ :add_message, :check_msg_limit ]
   def add_message
     phone = Phone.where(number: params[:phone]).first_or_create
-    time = Time.parse("#{params[:date]} #{params[:time]}").utc
-    time += cookies[:timezone].to_i.hours
+    time = Time.parse("#{params[:date]} #{params[:time]}")
+    time += cookies[:timezone].to_i.hours - Time.now.utc_offset
     if verify_recaptcha or phone.verified
       phone.update_attribute(:verified, true) unless phone.verified
       status, message = phone.add_message(params[:message], time)
